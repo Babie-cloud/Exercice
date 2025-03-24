@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #logo{
+    margin: 5%;
+    vertical-align: middle;
+    margin-left: 8px;
+    }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  .navbar {
+    padding: 20px 0; 
+    position: fixed;
+}
+
+.navbar-brand img {
+    margin-right: 20px; 
+}
+
+.navbar-nav .nav-link {
+    color: #333; 
+    margin-left: 20px; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #47232b; 
+}
